@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
+  <link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Spectre</title>
+</head>
+
+<body>
+	<!-- Меню -->
+	<div class="menu" style="background-image: url(img/header1.jpg)">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="catalog.html">Каталог</a></li>
+					<li><a href="order.html">На заказ</a></li>
+					<li><a href="portfolio.html">Примеры работ</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="phone">
+					<a href="tel:+79037500907">&#9742; +7 (903) 750-09-07</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Страница одной двери -->
+  <div class="door-template">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-lg-12">
+          <div class="door-gallery">
+            <a href="img/portfolio/SPECTRE.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/SPECTRE.jpg" alt="название 1">
+            </a>
+            <a href="img/portfolio/SPECTRE1.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/SPECTRE1.jpg" alt="название 1">
+            </a>
+            <a href="img/portfolio/SPECTRE2.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/SPECTRE2.jpg" alt="название 1">
+            </a>
+            <a href="img/portfolio/SPECTRE3.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/SPECTRE3.jpg" alt="название 1">
+            </a>
+            <a href="img/portfolio/SPECTRE4.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/SPECTRE4.jpg" alt="название 1">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-12 door-description">
+          <h2>Spectre <span>Есть в наличии</span></h2>
+          <!-- <h2>Название <span>Под заказ</span></h2> -->
+          <p>Игровой компьютер на новейшей видеокарте GeForce® RTX 3080, процессоре Intel Core i7 и 16 ГБ оперативной памяти. Рекордная производительность для геймеров с GeForce RTX™ 3080, оснащенной улучшенными ядрами RT и тензорными ядрами, новыми потоковыми мультипроцессорами и высокоскоростной памятью G6X. Играйте на максимальных настройках вплоть до 4К разрешения.</p>
+          <h3>279 900 &#8381;</h3>
+		  <form>
+              <input type="text" placeholder="Имя"><br>
+              <input type="text" placeholder="Телефон"><br>
+              <textarea placeholder="Комментарий"></textarea><br>
+              <button class="btn">Заказать замер</button>
+          </form>
+          <table>
+            <caption>Характеристики</caption>
+            <tr>
+              <td>Видеокарта</td>
+              <td>Palit GeForce RTX™ 3080 GAMEROCK LHR 12G</td>
+            </tr>
+            <tr>
+              <td>Процессор</td>
+              <td>Intel Core i7-12700F 2100 МГц</td>
+            </tr>
+            <tr>
+              <td>Материнская плата</td>
+              <td>ASUS PRIME H670-PLUS D4</td>
+            </tr>
+            <tr>
+              <td>Оперативная память</td>
+              <td>16 ГБ DDR4 3600 МГц ADATA XPG Spectrix D41 Red RGB</td>
+            </tr>
+            <tr>
+              <td>SSD</td>
+              <td>500 ГБ M.2 Kingston NV1</td>
+            </tr>
+            <tr>
+              <td>HDD</td>
+              <td>1000 ГБ Seagate Barracuda</td>
+            </tr>
+            <tr>
+              <td>Блок питания</td>
+              <td>850W DeepCool PM850D, 80 PLUS Gold</td>
+            </tr>
+            <tr>
+              <td>Корпус</td>
+              <td>Cooler Master MasterBox 540</td>
+            </tr>
+            <tr>
+              <td>Охлаждение</td>
+              <td>Cooler Master MasterLiquid ML360 Illusion</td>
+            </tr>
+          </table>
+          <a class="btn" href="information.html">Полезная информация</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Футер -->
+	<div class="footer" style="background-image: url(img/header1.jpg)">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<a href="policy.html">Политика конфиденциальности</a> <span class="accent-color">&copy; </span> Компьютер на заказ, 2022
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <script src="js/baguetteBox.min.js" async></script>
+  <script>
+    window.addEventListener('load', function() {
+      // Галерея
+      // Документация 
+      // https://github.com/feimosi/baguetteBox.js
+      // Инициализация
+      baguetteBox.run('.door-gallery');
+    })
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
+  <link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Crystal</title>
+</head>
+
+<body>
+	<!-- Меню -->
+	<div class="menu" style="background-image: url(img/header1.jpg)">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="catalog.html">Каталог</a></li>
+					<li><a href="order.html">На заказ</a></li>
+					<li><a href="portfolio.html">Примеры работ</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="phone">
+					<a href="tel:+79037500907">&#9742; +7 (903) 750-09-07</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Страница одной двери -->
+  <div class="door-template">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-lg-12">
+          <div class="door-gallery">
+            <a href="img/portfolio/CRYSTAL.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/CRYSTAL.jpg" alt="название 1">
+            </a>
+            <a href="img/portfolio/CRYSTAL1.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/CRYSTAL1.jpg" alt="название 1">
+            </a>
+            <a href="img/portfolio/CRYSTAL2.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/CRYSTAL2.jpg" alt="название 1">
+            </a>
+            <a href="img/portfolio/CRYSTAL3.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/CRYSTAL3.jpg" alt="название 1">
+            </a>
+            <a href="img/portfolio/CRYSTAL4.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/CRYSTAL4.jpg" alt="название 1">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-12 door-description">
+          <h2>Crystal <span>Есть в наличии</span></h2>
+          <!-- <h2>Название <span>Под заказ</span></h2> -->
+          <p>Мощный игровой компьютер на флагманской видеокарте GeForce® RTX 3090, процессоре Intel Core i9 и 32 ГБ оперативной памяти. В его основе архитектура NVIDIA RTX второго поколения — с удвоенной производительностью трассировки лучей и технологией искусственного интеллекта. Играйте на максимальных настройках, записывайте и смотрите видео в 4К разрешении.</p>
+          <h3>435 900 &#8381;</h3>
+		  <form>
+              <input type="text" placeholder="Имя"><br>
+              <input type="text" placeholder="Телефон"><br>
+              <textarea placeholder="Комментарий"></textarea><br>
+              <button class="btn">Заказать замер</button>
+          </form>
+          <table>
+            <caption>Характеристики</caption>
+            <tr>
+              <td>Видеокарта</td>
+              <td>Palit GeForce RTX™ 3090 GAMINGPRO OC 24G</td>
+            </tr>
+            <tr>
+              <td>Процессор</td>
+              <td>Intel Core i7-12700KF 3600 МГц</td>
+            </tr>
+            <tr>
+              <td>Материнская плата</td>
+              <td>ASUS PRIME Z690-P WIFI D4</td>
+            </tr>
+            <tr>
+              <td>Оперативная память</td>
+              <td>32 ГБ DDR4 3600 МГц ADATA XPG Spectrix D50G RGB White</td>
+            </tr>
+            <tr>
+              <td>SSD</td>
+              <td>1000 ГБ M.2 Samsung 980</td>
+            </tr>
+            <tr>
+              <td>HDD</td>
+              <td>2000 ГБ Seagate Barracuda</td>
+            </tr>
+            <tr>
+              <td>Блок питания</td>
+              <td>1000W Zalman ZM1000-ARX, 80 PLUS Platinum</td>
+            </tr>
+            <tr>
+              <td>Корпус</td>
+              <td>NZXT H710 White/Black</td>
+            </tr>
+            <tr>
+              <td>Охлаждение</td>
+              <td>Fractal Design Lumen S36 RGB</td>
+            </tr>
+          </table>
+          <a class="btn" href="information.html">Полезная информация</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Футер -->
+	<div class="footer" style="background-image: url(img/header1.jpg)">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<a href="policy.html">Политика конфиденциальности</a> <span class="accent-color">&copy; </span> Компьютер на заказ, 2022
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <script src="js/baguetteBox.min.js" async></script>
+  <script>
+    window.addEventListener('load', function() {
+      // Галерея
+      // Документация 
+      // https://github.com/feimosi/baguetteBox.js
+      // Инициализация
+      baguetteBox.run('.door-gallery');
+    })
+  </script>
+</body>
+
+</html>

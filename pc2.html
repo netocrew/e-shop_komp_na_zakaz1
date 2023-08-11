@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
+  <link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Clarity</title>
+</head>
+
+<body>
+	<!-- Меню -->
+	<div class="menu" style="background-image: url(img/header1.jpg)">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="catalog.html">Каталог</a></li>
+					<li><a href="order.html">На заказ</a></li>
+					<li><a href="portfolio.html">Примеры работ</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="phone">
+					<a href="tel:+79037500907">&#9742; +7 (903) 750-09-07</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Страница одной двери -->
+  <div class="door-template">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-lg-12">
+          <div class="door-gallery">
+            <a href="img/portfolio/CLARITY.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/CLARITY.jpg" alt="название 1">
+            </a>
+            <a href="img/portfolio/CLARITY1.jpg" data-caption="краткое описание изображения 1">
+              <img src="img/portfolio/CLARITY1.jpg" alt="название 1">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-12 door-description">
+          <h2>Clarity <span>Есть в наличии</span></h2>
+          <!-- <h2>Название <span>Под заказ</span></h2> -->
+          <p>
+            Игровой компьютер на новейшей видеокарте GeForce® RTX 3070, процессоре Intel Core i5 и 16 ГБ оперативной памяти. Великолепная производительность для геймеров с GeForce RTX™ 3070, оснащенной улучшенными ядрами RT и тензорными ядрами, новыми потоковыми мультипроцессорами и высокоскоростной памятью G6X. Играйте на максимальных настройках вплоть до 2К разрешения.</p>
+          <h3>225 500 &#8381;</h3>
+		  <form>
+              <input type="text" placeholder="Имя"><br>
+              <input type="text" placeholder="Телефон"><br>
+              <textarea placeholder="Комментарий"></textarea><br>
+              <button class="btn">Заказать замер</button>
+          </form>
+          <table>
+            <caption>Характеристики</caption>
+            <tr>
+              <td>Видеокарта</td>
+              <td>Palit GeForce RTX™ 3070 GAMEROCK OC 8G</td>
+            </tr>
+            <tr>
+              <td>Процессор</td>
+              <td>Intel Core i5-12600K 3700 МГц</td>
+            </tr>
+            <tr>
+              <td>Материнская плата</td>
+              <td>GIGABYTE B660M GAMING X DDR4</td>
+            </tr>
+            <tr>
+              <td>Оперативная память</td>
+              <td>16 ГБ DDR4 3200 МГц Netac Shadow RGB</td>
+            </tr>
+            <tr>
+              <td>SSD</td>
+              <td>250 ГБ M.2 Kingston NV1</td>
+            </tr>
+            <tr>
+              <td>HDD</td>
+              <td>1000 ГБ Seagate Barracuda</td>
+            </tr>
+            <tr>
+              <td>Блок питания</td>
+              <td>700W DeepCool Aurora DA700N, 80 PLUS Bronze</td>
+            </tr>
+            <tr>
+              <td>Корпус</td>
+              <td>DeepCool MATREXX 55 ADD-RGB 3F White</td>
+            </tr>
+            <tr>
+              <td>Охлаждение</td>
+              <td>MSI MAG CORELIQUID C240</td>
+            </tr>
+          </table>
+          <a class="btn" href="information.html">Полезная информация</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Футер -->
+	<div class="footer" style="background-image: url(img/header1.jpg)">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<a href="policy.html">Политика конфиденциальности</a> <span class="accent-color">&copy; </span> Компьютер на заказ, 2022
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <script src="js/baguetteBox.min.js" async></script>
+  <script>
+    window.addEventListener('load', function() {
+      // Галерея
+      // Документация 
+      // https://github.com/feimosi/baguetteBox.js
+      // Инициализация
+      baguetteBox.run('.door-gallery');
+    })
+  </script>
+</body>
+
+</html>
